@@ -1,2 +1,2 @@
-## **Heat-da-Heat**
+## __**Heat-da-Heat**__
 2023 Sejong Univ. Capstone Design
