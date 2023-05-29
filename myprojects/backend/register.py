@@ -31,7 +31,7 @@ def login():
         # 사용자 정보를 확인하거나 데이터베이스에서의 정보 유무 확인
         for user in users:
             if user['Employee ID'] == userID and user['Password'] == password:
-                return f'Welcome, {userID}!'
+                #return f'Welcome, {userID}!' -> 나경님 홈 화면 html 집어넣기 
         
         return 'Invalid username or password'
     
