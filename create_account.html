@@ -31,7 +31,6 @@
          background-color: white;
       }
    </style>
-
 </head>
 
 
@@ -129,6 +128,7 @@
    </div>
    <!-- about -->
 
+
    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
    <div class="login">
@@ -138,28 +138,7 @@
          </div>
          <div class="login__forms">
             <!-- login form -->
-            <form action="" class="login__register" id="login-in">
-               <h1 class="login__title">Sign In</h1>
-               <div class="login__box">
-                  <i class='bx bx-user login__icon'></i>
-                  <input type="text" placeholder="Employee ID" name="Enter your ID" class="login__input">
-               </div>
-               <div class="login__box">
-                  <i class='bx bx-lock login__icon'></i>
-                  <input type="password" placeholder="Password" name="Enter your Password" class="login__input">
-               </div>
-               <a href="#" class="login__forgot">Forgot Password? </a>
-               <a href="#" class="login__button">Sign In</a>
-
-               <div>
-                  <span class="login__account login__account--account">Don't Have an Account?</span>
-                  <span class="login__signup login__signup--signup" id="sign-up">Go Sign Up</span>
-               </div>
-            </form>
-
-
-            <!--         create account form -->
-            <form action="" class="login__create none" id="login-up">
+            <form action="" class="login__register" id="login-up">
                <h1 class="login__title">Create Account</h1>
                <div class="login__box">
                   <i class='bx bx-user login__icon'></i>
@@ -180,36 +159,80 @@
 
                <div>
                   <span class="login__account login__account--account">Already have an Account?</span>
-                  <span class="login__signup login__signup--signup" id="sign-in">Go Sign In</span>
+                  <span class="login__signup login__signup--signup" id="sign-in">Sign In</span>
                </div>
+            </form>
+
+            <!--         create account form -->
+            <form action="" class="login__create none" id="login-in">
+               <h1 class="login__title">Sign In</h1>
+               <div class="login__box">
+                  <i class='bx bx-user login__icon'></i>
+                  <input type="text" placeholder="Employee ID" class="login__input">
+               </div>
+               <div class="login__box">
+                  <i class='bx bx-lock login__icon'></i>
+                  <input type="password" placeholder="Password" class="login__input">
+               </div>
+               <a href="#" class="login__forgot">Forgot Password? </a>
+
+               <a href="#" class="login__button">Sign In</a>
+
+               <div>
+                  <span class="login__account login__account--account">Don't Have an Account?</span>
+                  <span class="login__signup login__signup--signup" id="sign-up">Sign Up</span>
+               </div>
+
 
             </form>
          </div>
       </div>
    </div>
 
-   <script>
-      (function () {
-         var loginForm = document.getElementById('login-in');
-         var loginButton = document.querySelector('.login__button');
-
-         loginButton.addEventListener('click', function (event) {
-            var employeeID = loginForm.querySelector('input[name="Enter your ID"]');
-            var password = loginForm.querySelector('input[name="Enter your Password"]');
-
-            if (employeeID.value === '' || password.value === '') {
-               event.preventDefault();
-               alert('정보를 모두 입력하세요.');
-            }
-         });
-      })();
-   </script>
 
    <!-- end about -->
    <!--  footer -->
+   <footer>
+      <div class="footer">
+         <div class="container">
+            <div class="row">
+               <div class=" col-lg-3 col-md-6">
+                  <a class="logo_bottom"><img src="images/logo_bottom.png" alt="#" /></a>
+               </div>
+               <div class="col-lg-2 offset-lg-1 col-md-6">
+                  <h3>QUICK LINKS</h3>
+                  <ul class="link_menu">
+                     <li><a href="index.html">홈</a></li>
+                     <li><a href="project.html">결함 탐지하기</a></li>
+                     <li><a href="contact.html">결함 제품 모아보기</a></li>
+                     <li><a href="login.html">로그인</a></li>
+                  </ul>
+               </div>
+               <div class=" col-lg-3 col-md-6">
+               </div>
+               <div class="col-lg-3 col-md-6">
+                  <h3>LOGIN </h3>
+                  <form class="bottom_form">
+                     <div class="form-group">
+                        <input class="form-control" placeholder="Enter your Employee ID" type="text"
+                           name="Enter your ID">
+                     </div>
+                     <div class="form-group">
+                        <input class="form-control" placeholder="Enter your Password" type="password"
+                           name="Enter your Password">
+                     </div>
+                     <div class="form-group d-flex justify-content-between align-items-center">
+                        <button class="btn sub_btn">Login</button>
+                        <a class="btn sub_btn" href="create_account.html">Sign Up</a>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
    <!-- end footer -->
    <!-- Javascript files-->
-
    <script src="js/jquery.min.js"></script>
    <script src="js/bootstrap.bundle.min.js"></script>
    <script src="js/jquery-3.0.0.min.js"></script>

@@ -8,7 +8,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
    <!-- site metas -->
-   <title>로그인</title>
+   <title>결함 제품 모아보기</title>
    <meta name="keywords" content="">
    <meta name="description" content="">
    <meta name="author" content="">
@@ -26,16 +26,10 @@
    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
       media="screen">
-   <style>
-      body {
-         background-color: white;
-      }
-   </style>
-
+   <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 </head>
-
-
-
 <!-- body -->
 
 <body class="main-layout inner_page">
@@ -93,10 +87,10 @@
                                     <li class="nav-item">
                                        <a class="nav-link" href="project.html">결함 탐지하기</a>
                                     </li>
-                                    <li class="nav-item">
+                                    <li class="nav-item active">
                                        <a class="nav-link" href="contact.html">결함 제품 모아보기</a>
                                     </li>
-                                    <li class="nav-item active">
+                                    <li class="nav-item">
                                        <a class="nav-link" href="login.html">로그인</a>
                                     </li>
                                  </ul>
@@ -122,102 +116,103 @@
       <div class="container">
          <div class="row">
             <div class="col-md-12">
-
             </div>
          </div>
       </div>
    </div>
-   <!-- about -->
 
-   <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-
-   <div class="login">
-      <div class="login__content">
-         <div class="login__img">
-            <img src="images/login_image.png" alt="user login">
-         </div>
-         <div class="login__forms">
-            <!-- login form -->
-            <form action="" class="login__register" id="login-in">
-               <h1 class="login__title">Sign In</h1>
-               <div class="login__box">
-                  <i class='bx bx-user login__icon'></i>
-                  <input type="text" placeholder="Employee ID" name="Enter your ID" class="login__input">
-               </div>
-               <div class="login__box">
-                  <i class='bx bx-lock login__icon'></i>
-                  <input type="password" placeholder="Password" name="Enter your Password" class="login__input">
-               </div>
-               <a href="#" class="login__forgot">Forgot Password? </a>
-               <a href="#" class="login__button">Sign In</a>
-
-               <div>
-                  <span class="login__account login__account--account">Don't Have an Account?</span>
-                  <span class="login__signup login__signup--signup" id="sign-up">Go Sign Up</span>
-               </div>
-            </form>
-
-
-            <!--         create account form -->
-            <form action="" class="login__create none" id="login-up">
-               <h1 class="login__title">Create Account</h1>
-               <div class="login__box">
-                  <i class='bx bx-user login__icon'></i>
-                  <input type="text" placeholder="Username" class="login__input">
-               </div>
-
-               <div class="login__box">
-                  <i class='bx bx-at login__icon'></i>
-                  <input type="text" placeholder="Employee ID" class="login__input">
-               </div>
-
-               <div class="login__box">
-                  <i class='bx bx-lock login__icon'></i>
-                  <input type="password" placeholder="Password" class="login__input">
-               </div>
-
-               <a href="#" class="login__button">Sign Up</a>
-
-               <div>
-                  <span class="login__account login__account--account">Already have an Account?</span>
-                  <span class="login__signup login__signup--signup" id="sign-in">Go Sign In</span>
-               </div>
-
-            </form>
-         </div>
+   <!-- project -->
+   <div class="container">
+      <div id="abnormalImages3">
+         <!-- 
+         <img src="images/Abnormal_RGB1.jpg">
+         <img src="images/Abnormal_RGB2.jpg">
+         <img src="images/Abnormal_RGB3.jpg">
+         <img src="images/Abnormal_RGB1.jpg">
+         <img src="images/Abnormal_RGB2.jpg">
+         <img src="images/Abnormal_RGB3.jpg">
+         -->
+      </div>
+      <br>
+      <div id="abnormalImages4">
+         <!--
+         <img src="images/Abnormal_Lwir1.jpg">
+         <img src="images/Abnormal_Lwir2.jpg">
+         <img src="images/Abnormal_Lwir3.jpg">
+         <img src="images/Abnormal_Lwir4.jpg">
+         <img src="images/Abnormal_Lwir1.jpg">
+         <img src="images/Abnormal_Lwir2.jpg">
+         <img src="images/Abnormal_Lwir3.jpg">
+         <img src="images/Abnormal_Lwir4.jpg">
+         -->
       </div>
    </div>
 
+
    <script>
-      (function () {
-         var loginForm = document.getElementById('login-in');
-         var loginButton = document.querySelector('.login__button');
+      function displayImage() {
+         var image = localStorage.getItem("uploadedImage");
 
-         loginButton.addEventListener('click', function (event) {
-            var employeeID = loginForm.querySelector('input[name="Enter your ID"]');
-            var password = loginForm.querySelector('input[name="Enter your Password"]');
+         if (image) {
+            var imgElement = document.createElement("img");
+            imgElement.src = image;
 
-            if (employeeID.value === '' || password.value === '') {
-               event.preventDefault();
-               alert('정보를 모두 입력하세요.');
-            }
-         });
-      })();
+            // 이미지를 표시할 요소에 추가
+            var abnormalImages = document.getElementById("abnormalImages");
+            abnormalImages.appendChild(imgElement);
+         }
+      }
    </script>
 
-   <!-- end about -->
+   <!-- end project -->
    <!--  footer -->
+   <footer>
+      <div class="footer">
+         <div class="container">
+            <div class="row">
+               <div class=" col-lg-3 col-md-6">
+                  <a class="logo_bottom"><img src="images/logo_bottom.png" alt="#" /></a>
+               </div>
+               <div class="col-lg-2 offset-lg-1 col-md-6">
+                  <h3>QUICK LINKS</h3>
+                  <ul class="link_menu">
+                     <li><a href="index.html">홈</a></li>
+                     <li><a href="project.html">결함 탐지하기</a></li>
+                     <li><a href="contact.html">결함 제품 모아보기</a></li>
+                     <li><a href="login.html">로그인</a></li>
+                  </ul>
+               </div>
+               <div class=" col-lg-3 col-md-6">
+               </div>
+               <div class="col-lg-3 col-md-6">
+                  <h3>LOGIN </h3>
+                  <form class="bottom_form">
+                     <div class="form-group">
+                        <input class="form-control" placeholder="Enter your Employee ID" type="text"
+                           name="Enter your ID">
+                     </div>
+                     <div class="form-group">
+                        <input class="form-control" placeholder="Enter your Password" type="password"
+                           name="Enter your Password">
+                     </div>
+                     <div class="form-group d-flex justify-content-between align-items-center">
+                        <button class="btn sub_btn">Login</button>
+                        <a class="btn sub_btn" href="create_account.html">Sign Up</a>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
    <!-- end footer -->
    <!-- Javascript files-->
-
    <script src="js/jquery.min.js"></script>
    <script src="js/bootstrap.bundle.min.js"></script>
    <script src="js/jquery-3.0.0.min.js"></script>
    <!-- sidebar -->
    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
    <script src="js/custom.js"></script>
-   <!-- login -->
-   <script src="js/login.js"></script>
 </body>
 
 </html>
