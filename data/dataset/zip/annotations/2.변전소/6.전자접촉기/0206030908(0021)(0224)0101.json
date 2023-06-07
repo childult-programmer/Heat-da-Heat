@@ -1,0 +1,151 @@
+{
+    "image": {
+        "filename": "0206030908(0021)(0224)0101.jpg",
+        "filename_rgb": "0206030908(0021)(0224)0301.jpg"
+    },
+    "csv": {
+        "filename_csv": "0206030908(0021)(0224)0101.csv",
+        "temp_start": "A6",
+        "delimiter": ";"
+    },
+    "metadata": {
+        "date_created": "2021.12.09. 11:47",
+        "type": "JPG",
+        "width": 640,
+        "height": 512,
+        "aspect_ratio": "5:4",
+        "region_name": "변전소",
+        "facility_id": "06",
+        "facility": "전자접촉기",
+        "camera_height": "2m",
+        "camera_angle": 91.26,
+        "status": "normal",
+        "emissivity": 0.95,
+        "obj_distance": 1.0,
+        "reflected_temp": 24.5,
+        "atmospheric_temp": 24.5,
+        "relative_humidity": 10.0
+    },
+    "annotations": [
+        {
+            "id": "qqT1-VLdyLso3KSFuK69j",
+            "category": "bounding_box",
+            "class": "전자접촉기",
+            "attributes": {
+                "status": "normal",
+                "standard": "DC110V 4a4b"
+            },
+            "data": {
+                "x": 63,
+                "y": 140,
+                "width": 62,
+                "height": 175
+            }
+        },
+        {
+            "id": "NWkgP-69WeQgNjvaRZem0",
+            "category": "bounding_box",
+            "class": "전자접촉기",
+            "attributes": {
+                "status": "normal",
+                "standard": "DC110V 4a4b"
+            },
+            "data": {
+                "x": 110,
+                "y": 149,
+                "width": 55,
+                "height": 171
+            }
+        },
+        {
+            "id": "Xa-2WWOvdgQcTJppZ5o7x",
+            "category": "bounding_box",
+            "class": "전자접촉기",
+            "attributes": {
+                "status": "normal",
+                "standard": "DC110V 4a4b"
+            },
+            "data": {
+                "x": 154,
+                "y": 149,
+                "width": 61,
+                "height": 175
+            }
+        },
+        {
+            "id": "9W9Y1mXN86tD0BUsudGup",
+            "category": "bounding_box",
+            "class": "전자접촉기",
+            "attributes": {
+                "status": "normal",
+                "standard": "DC110V 4a4b"
+            },
+            "data": {
+                "x": 203,
+                "y": 155,
+                "width": 64,
+                "height": 174
+            }
+        },
+        {
+            "id": "khQPPwsSogBrTZy6b0qq5",
+            "category": "bounding_box",
+            "class": "전자접촉기",
+            "attributes": {
+                "status": "normal",
+                "standard": "DC110V 4a4b"
+            },
+            "data": {
+                "x": 254,
+                "y": 159,
+                "width": 59,
+                "height": 173
+            }
+        },
+        {
+            "id": "em09yKTSeiBbah94VmZLQ",
+            "category": "bounding_box",
+            "class": "전자접촉기",
+            "attributes": {
+                "status": "normal",
+                "standard": "DC110V 4a4b"
+            },
+            "data": {
+                "x": 300,
+                "y": 161,
+                "width": 62,
+                "height": 176
+            }
+        },
+        {
+            "id": "-tGBFwikKgXvkVxto_dOA",
+            "category": "bounding_box",
+            "class": "전자접촉기",
+            "attributes": {
+                "status": "normal",
+                "standard": "DC110V 4a4b"
+            },
+            "data": {
+                "x": 512,
+                "y": 188,
+                "width": 70,
+                "height": 168
+            }
+        },
+        {
+            "id": "Nsf_ILv5YSNXzeHNm4YLz",
+            "category": "bounding_box",
+            "class": "전자접촉기",
+            "attributes": {
+                "status": "normal",
+                "standard": "DC110V 4a4b"
+            },
+            "data": {
+                "x": 569,
+                "y": 192,
+                "width": 65,
+                "height": 166
+            }
+        }
+    ]
+}

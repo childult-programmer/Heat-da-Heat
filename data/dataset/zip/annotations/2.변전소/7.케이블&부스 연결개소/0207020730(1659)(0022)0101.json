@@ -1,0 +1,121 @@
+{
+    "image": {
+        "filename": "0207020730(1659)(0022)0101.jpg",
+        "filename_rgb": "0207020730(1659)(0022)0301.jpg"
+    },
+    "csv": {
+        "filename_csv": "0207020730(1659)(0022)0101.csv",
+        "temp_start": "A6",
+        "delimiter": ";"
+    },
+    "metadata": {
+        "date_created": "2021.12.09. 22:37",
+        "type": "JPG",
+        "width": 640,
+        "height": 512,
+        "aspect_ratio": "5:4",
+        "region_name": "변전소",
+        "facility_id": "07",
+        "facility": "케이블&부스 연결개소",
+        "camera_height": "2m",
+        "camera_angle": 43.85,
+        "status": "normal",
+        "emissivity": 0.95,
+        "obj_distance": 1.0,
+        "reflected_temp": 24.0,
+        "atmospheric_temp": 24.0,
+        "relative_humidity": 50.0
+    },
+    "annotations": [
+        {
+            "id": "s08EmLXhRubwP8lZJgMKa",
+            "category": "bounding_box",
+            "class": "케이블&부스 연결개소",
+            "attributes": {
+                "status": "normal",
+                "standard": "6.6KV"
+            },
+            "data": {
+                "x": 161,
+                "y": 2,
+                "width": 140,
+                "height": 399
+            }
+        },
+        {
+            "id": "vrRLD48gMXiIrvZPHce97",
+            "category": "bounding_box",
+            "class": "케이블&부스 연결개소",
+            "attributes": {
+                "status": "normal",
+                "standard": "6.6KV"
+            },
+            "data": {
+                "x": 214,
+                "y": 3,
+                "width": 94,
+                "height": 409
+            }
+        },
+        {
+            "id": "mxLjJ2ewcuR6E4tJ4dIB_",
+            "category": "bounding_box",
+            "class": "케이블&부스 연결개소",
+            "attributes": {
+                "status": "normal",
+                "standard": "6.6KV"
+            },
+            "data": {
+                "x": 244,
+                "y": 0,
+                "width": 83,
+                "height": 410
+            }
+        },
+        {
+            "id": "FbOkkgAgp_IKGPm96VPAv",
+            "category": "bounding_box",
+            "class": "케이블&부스 연결개소",
+            "attributes": {
+                "status": "normal",
+                "standard": "6.6KV"
+            },
+            "data": {
+                "x": 290,
+                "y": 3,
+                "width": 79,
+                "height": 411
+            }
+        },
+        {
+            "id": "uw2i0IjPkiMcX3SxZa8B0",
+            "category": "bounding_box",
+            "class": "케이블&부스 연결개소",
+            "attributes": {
+                "status": "normal",
+                "standard": "6.6KV"
+            },
+            "data": {
+                "x": 321,
+                "y": 1,
+                "width": 115,
+                "height": 404
+            }
+        },
+        {
+            "id": "1O7NOQCqjLKbEyN60_PLq",
+            "category": "bounding_box",
+            "class": "케이블&부스 연결개소",
+            "attributes": {
+                "status": "normal",
+                "standard": "6.6KV"
+            },
+            "data": {
+                "x": 340,
+                "y": 0,
+                "width": 131,
+                "height": 405
+            }
+        }
+    ]
+}

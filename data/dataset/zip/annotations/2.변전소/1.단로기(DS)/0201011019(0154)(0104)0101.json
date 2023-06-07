@@ -1,0 +1,76 @@
+{
+    "image": {
+        "filename": "0201011019(0154)(0104)0101.jpg",
+        "filename_rgb": "0201011019(0154)(0104)0301.jpg"
+    },
+    "csv": {
+        "filename_csv": "0201011019(0154)(0104)0101.csv",
+        "temp_start": "A6",
+        "delimiter": ";"
+    },
+    "metadata": {
+        "date_created": "2021.12.09. 11:41",
+        "type": "JPG",
+        "width": 640,
+        "height": 512,
+        "aspect_ratio": "5:4",
+        "region_name": "변전소",
+        "facility_id": "01",
+        "facility": "단로기(DS)",
+        "camera_height": "2m",
+        "camera_angle": 60.52,
+        "status": "normal",
+        "emissivity": 0.95,
+        "obj_distance": 1.0,
+        "reflected_temp": 23.0,
+        "atmospheric_temp": 23.0,
+        "relative_humidity": 20.0
+    },
+    "annotations": [
+        {
+            "id": "R5G2OmtvNvsOb6jRCurak",
+            "category": "bounding_box",
+            "class": "단로기(DS)",
+            "attributes": {
+                "status": "normal",
+                "standard": "24kV,1200A, 4P"
+            },
+            "data": {
+                "x": 221,
+                "y": 63,
+                "width": 31,
+                "height": 179
+            }
+        },
+        {
+            "id": "m0woB3lycd4TCc2tCz7Lz",
+            "category": "bounding_box",
+            "class": "단로기(DS)",
+            "attributes": {
+                "status": "normal",
+                "standard": "24kV,1200A, 4P"
+            },
+            "data": {
+                "x": 356,
+                "y": 68,
+                "width": 27,
+                "height": 167
+            }
+        },
+        {
+            "id": "VP9v6pycdvO1zEX2NAgdS",
+            "category": "bounding_box",
+            "class": "단로기(DS)",
+            "attributes": {
+                "status": "normal",
+                "standard": "24kV,1200A, 4P"
+            },
+            "data": {
+                "x": 497,
+                "y": 67,
+                "width": 29,
+                "height": 163
+            }
+        }
+    ]
+}

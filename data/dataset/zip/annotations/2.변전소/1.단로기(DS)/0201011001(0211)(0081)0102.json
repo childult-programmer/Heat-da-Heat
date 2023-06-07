@@ -1,0 +1,91 @@
+{
+    "image": {
+        "filename": "0201011001(0211)(0081)0102.jpg",
+        "filename_rgb": "0201011001(0211)(0081)0302.jpg"
+    },
+    "csv": {
+        "filename_csv": "0201011001(0211)(0081)0102.csv",
+        "temp_start": "A6",
+        "delimiter": ";"
+    },
+    "metadata": {
+        "date_created": "2021.12.09. 11:40",
+        "type": "JPG",
+        "width": 640,
+        "height": 512,
+        "aspect_ratio": "5:4",
+        "region_name": "변전소",
+        "facility_id": "01",
+        "facility": "단로기(DS)",
+        "camera_height": "2m",
+        "camera_angle": 71.5,
+        "status": "danger",
+        "emissivity": 0.95,
+        "obj_distance": 1.0,
+        "reflected_temp": 26.0,
+        "atmospheric_temp": 26.0,
+        "relative_humidity": 23.0
+    },
+    "annotations": [
+        {
+            "id": "k4sC2EZ-BA1TEnzV6r-sZ",
+            "category": "bounding_box",
+            "class": "단로기(DS)",
+            "attributes": {
+                "status": "normal",
+                "standard": "24kV,1200A, 4P"
+            },
+            "data": {
+                "x": 200,
+                "y": 141,
+                "width": 66,
+                "height": 259
+            }
+        },
+        {
+            "id": "9EHiFIRT6B1G3sWFoPQLD",
+            "category": "bounding_box",
+            "class": "단로기(DS)",
+            "attributes": {
+                "status": "normal",
+                "standard": "24kV,1200A, 4P"
+            },
+            "data": {
+                "x": 296,
+                "y": 138,
+                "width": 65,
+                "height": 251
+            }
+        },
+        {
+            "id": "tzheVi026Ma2FNDP2WTF3",
+            "category": "bounding_box",
+            "class": "단로기(DS)",
+            "attributes": {
+                "status": "normal",
+                "standard": "24kV,1200A, 4P"
+            },
+            "data": {
+                "x": 399,
+                "y": 128,
+                "width": 59,
+                "height": 253
+            }
+        },
+        {
+            "id": "-RppUGpgj8RZP8JzEBFnY",
+            "category": "bounding_box",
+            "class": "단로기(DS)",
+            "attributes": {
+                "status": "danger",
+                "standard": "24kV,1200A, 4P"
+            },
+            "data": {
+                "x": 501,
+                "y": 105,
+                "width": 71,
+                "height": 270
+            }
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "image": {
+        "filename": "0203010817(2320)(0156)0101.jpg",
+        "filename_rgb": "0203010817(2320)(0156)0301.jpg"
+    },
+    "csv": {
+        "filename_csv": "0203010817(2320)(0156)0101.csv",
+        "temp_start": "A6",
+        "delimiter": ";"
+    },
+    "metadata": {
+        "date_created": "2021.12.09. 11:42",
+        "type": "JPG",
+        "width": 640,
+        "height": 512,
+        "aspect_ratio": "5:4",
+        "region_name": "변전소",
+        "facility_id": "03",
+        "facility": "변압기 케이블 연결개소 포함",
+        "camera_height": "2m",
+        "camera_angle": 78.06,
+        "status": "normal",
+        "emissivity": 0.95,
+        "obj_distance": 1.0,
+        "reflected_temp": 24.0,
+        "atmospheric_temp": 24.0,
+        "relative_humidity": 50.0
+    },
+    "annotations": [
+        {
+            "id": "1I-8T3mNn3W-B71xvWl65",
+            "category": "bounding_box",
+            "class": "변압기 케이블 연결개소 포함",
+            "attributes": {
+                "status": "normal",
+                "standard": "22.9KV/6.6kV"
+            },
+            "data": {
+                "x": 49,
+                "y": 1,
+                "width": 150,
+                "height": 499
+            }
+        },
+        {
+            "id": "OCsLRkaevpYQO2vNVn8ig",
+            "category": "bounding_box",
+            "class": "변압기 케이블 연결개소 포함",
+            "attributes": {
+                "status": "normal",
+                "standard": "22.9KV/6.6kV"
+            },
+            "data": {
+                "x": 284,
+                "y": 1,
+                "width": 172,
+                "height": 492
+            }
+        },
+        {
+            "id": "6PNwItJhYEF-GR6L-Atgm",
+            "category": "bounding_box",
+            "class": "변압기 케이블 연결개소 포함",
+            "attributes": {
+                "status": "normal",
+                "standard": "22.9KV/6.6kV"
+            },
+            "data": {
+                "x": 470,
+                "y": 0,
+                "width": 165,
+                "height": 488
+            }
+        }
+    ]
+}

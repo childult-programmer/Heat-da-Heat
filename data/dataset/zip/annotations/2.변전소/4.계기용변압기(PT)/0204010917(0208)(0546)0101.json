@@ -1,0 +1,76 @@
+{
+    "image": {
+        "filename": "0204010917(0208)(0546)0101.jpg",
+        "filename_rgb": "0204010917(0208)(0546)0301.jpg"
+    },
+    "csv": {
+        "filename_csv": "0204010917(0208)(0546)0101.csv",
+        "temp_start": "A6",
+        "delimiter": ";"
+    },
+    "metadata": {
+        "date_created": "2021.12.09. 11:45",
+        "type": "JPG",
+        "width": 640,
+        "height": 512,
+        "aspect_ratio": "5:4",
+        "region_name": "변전소",
+        "facility_id": "04",
+        "facility": "계기용변압기(PT)",
+        "camera_height": "2m",
+        "camera_angle": 101.24,
+        "status": "normal",
+        "emissivity": 0.95,
+        "obj_distance": 1.0,
+        "reflected_temp": 26.4,
+        "atmospheric_temp": 26.4,
+        "relative_humidity": 10.0
+    },
+    "annotations": [
+        {
+            "id": "gfPmnzLqmO2X3P75vUozd",
+            "category": "bounding_box",
+            "class": "계기용변압기(PT)",
+            "attributes": {
+                "status": "normal",
+                "standard": "(22.9kV/√3)/(110V/√3)"
+            },
+            "data": {
+                "x": 44,
+                "y": 97,
+                "width": 159,
+                "height": 315
+            }
+        },
+        {
+            "id": "gGIxHNsXuFuGZwoyedRIC",
+            "category": "bounding_box",
+            "class": "계기용변압기(PT)",
+            "attributes": {
+                "status": "normal",
+                "standard": "(22.9kV/√3)/(110V/√3)"
+            },
+            "data": {
+                "x": 254,
+                "y": 82,
+                "width": 147,
+                "height": 305
+            }
+        },
+        {
+            "id": "pB0ZzGjpEF7rZG2lYB6tZ",
+            "category": "bounding_box",
+            "class": "계기용변압기(PT)",
+            "attributes": {
+                "status": "normal",
+                "standard": "(22.9kV/√3)/(110V/√3)"
+            },
+            "data": {
+                "x": 430,
+                "y": 65,
+                "width": 164,
+                "height": 298
+            }
+        }
+    ]
+}

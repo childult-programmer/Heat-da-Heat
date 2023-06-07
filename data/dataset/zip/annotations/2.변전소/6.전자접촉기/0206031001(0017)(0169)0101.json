@@ -1,0 +1,91 @@
+{
+    "image": {
+        "filename": "0206031001(0017)(0169)0101.jpg",
+        "filename_rgb": "0206031001(0017)(0169)0301.jpg"
+    },
+    "csv": {
+        "filename_csv": "0206031001(0017)(0169)0101.csv",
+        "temp_start": "A6",
+        "delimiter": ";"
+    },
+    "metadata": {
+        "date_created": "2021.12.09. 11:47",
+        "type": "JPG",
+        "width": 640,
+        "height": 512,
+        "aspect_ratio": "5:4",
+        "region_name": "변전소",
+        "facility_id": "06",
+        "facility": "전자접촉기",
+        "camera_height": "2m",
+        "camera_angle": 74.89,
+        "status": "normal",
+        "emissivity": 0.95,
+        "obj_distance": 1.0,
+        "reflected_temp": 25.0,
+        "atmospheric_temp": 25.0,
+        "relative_humidity": 21.0
+    },
+    "annotations": [
+        {
+            "id": "otN5qpNFDW3yz3pi6oA3c",
+            "category": "bounding_box",
+            "class": "전자접촉기",
+            "attributes": {
+                "status": "normal",
+                "standard": "DC110V 4a4b"
+            },
+            "data": {
+                "x": 152,
+                "y": 70,
+                "width": 107,
+                "height": 284
+            }
+        },
+        {
+            "id": "KEWvynnkxzBL4BdwJ6oY3",
+            "category": "bounding_box",
+            "class": "전자접촉기",
+            "attributes": {
+                "status": "normal",
+                "standard": "DC110V 4a4b"
+            },
+            "data": {
+                "x": 209,
+                "y": 127,
+                "width": 131,
+                "height": 244
+            }
+        },
+        {
+            "id": "XJ56s1eRibUUNPK87WCR8",
+            "category": "bounding_box",
+            "class": "전자접촉기",
+            "attributes": {
+                "status": "normal",
+                "standard": "DC110V 4a4b"
+            },
+            "data": {
+                "x": 421,
+                "y": 193,
+                "width": 110,
+                "height": 215
+            }
+        },
+        {
+            "id": "F3s7vF9IXkzH6lvRW5b_X",
+            "category": "bounding_box",
+            "class": "전자접촉기",
+            "attributes": {
+                "status": "normal",
+                "standard": "DC110V 4a4b"
+            },
+            "data": {
+                "x": 520,
+                "y": 194,
+                "width": 89,
+                "height": 220
+            }
+        }
+    ]
+}

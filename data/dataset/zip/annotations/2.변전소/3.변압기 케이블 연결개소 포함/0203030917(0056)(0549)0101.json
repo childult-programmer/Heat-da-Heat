@@ -1,0 +1,91 @@
+{
+    "image": {
+        "filename": "0203030917(0056)(0549)0101.jpg",
+        "filename_rgb": "0203030917(0056)(0549)0301.jpg"
+    },
+    "csv": {
+        "filename_csv": "0203030917(0056)(0549)0101.csv",
+        "temp_start": "A6",
+        "delimiter": ";"
+    },
+    "metadata": {
+        "date_created": "2021.12.09. 11:41",
+        "type": "JPG",
+        "width": 640,
+        "height": 512,
+        "aspect_ratio": "5:4",
+        "region_name": "변전소",
+        "facility_id": "03",
+        "facility": "변압기 케이블 연결개소 포함",
+        "camera_height": "2m",
+        "camera_angle": 110.15,
+        "status": "normal",
+        "emissivity": 0.95,
+        "obj_distance": 1.0,
+        "reflected_temp": 26.4,
+        "atmospheric_temp": 26.4,
+        "relative_humidity": 10.0
+    },
+    "annotations": [
+        {
+            "id": "bkrgmcnCGiyqeYITvQIHG",
+            "category": "bounding_box",
+            "class": "변압기 케이블 연결개소 포함",
+            "attributes": {
+                "status": "normal",
+                "standard": "6.6KV,380/220V,150kVA"
+            },
+            "data": {
+                "x": 185,
+                "y": 179,
+                "width": 39,
+                "height": 289
+            }
+        },
+        {
+            "id": "h4YUDQv8D97qWXAIqulRn",
+            "category": "bounding_box",
+            "class": "변압기 케이블 연결개소 포함",
+            "attributes": {
+                "status": "normal",
+                "standard": "6.6KV,380/220V,150kVA"
+            },
+            "data": {
+                "x": 331,
+                "y": 165,
+                "width": 30,
+                "height": 287
+            }
+        },
+        {
+            "id": "ajwTQEIu5PojrnL-3drRu",
+            "category": "bounding_box",
+            "class": "변압기 케이블 연결개소 포함",
+            "attributes": {
+                "status": "normal",
+                "standard": "6.6KV,380/220V,150kVA"
+            },
+            "data": {
+                "x": 402,
+                "y": 163,
+                "width": 33,
+                "height": 276
+            }
+        },
+        {
+            "id": "2FX6BAJ7GDB_-gC2Ae55E",
+            "category": "bounding_box",
+            "class": "변압기 케이블 연결개소 포함",
+            "attributes": {
+                "status": "normal",
+                "standard": "6.6KV,380/220V,150kVA"
+            },
+            "data": {
+                "x": 468,
+                "y": 145,
+                "width": 40,
+                "height": 281
+            }
+        }
+    ]
+}

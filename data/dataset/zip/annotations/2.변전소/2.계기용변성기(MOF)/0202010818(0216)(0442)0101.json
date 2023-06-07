@@ -1,0 +1,76 @@
+{
+    "image": {
+        "filename": "0202010818(0216)(0442)0101.jpg",
+        "filename_rgb": "0202010818(0216)(0442)0301.jpg"
+    },
+    "csv": {
+        "filename_csv": "0202010818(0216)(0442)0101.csv",
+        "temp_start": "A6",
+        "delimiter": ";"
+    },
+    "metadata": {
+        "date_created": "2021.12.09. 11:49",
+        "type": "JPG",
+        "width": 640,
+        "height": 512,
+        "aspect_ratio": "5:4",
+        "region_name": "변전소",
+        "facility_id": "02",
+        "facility": "계기용변성기(MOF)",
+        "camera_height": "2m",
+        "camera_angle": 113.73,
+        "status": "normal",
+        "emissivity": 0.95,
+        "obj_distance": 1.0,
+        "reflected_temp": 24.0,
+        "atmospheric_temp": 24.0,
+        "relative_humidity": 50.0
+    },
+    "annotations": [
+        {
+            "id": "amyh_C1QpXVAUhX_ED1tS",
+            "category": "bounding_box",
+            "class": "계기용변성기(MOF)",
+            "attributes": {
+                "status": "normal",
+                "standard": "13200/110V"
+            },
+            "data": {
+                "x": 77,
+                "y": 83,
+                "width": 117,
+                "height": 310
+            }
+        },
+        {
+            "id": "AeBosCu-vuLiM1UyA5K0G",
+            "category": "bounding_box",
+            "class": "계기용변성기(MOF)",
+            "attributes": {
+                "status": "normal",
+                "standard": "13200/110V"
+            },
+            "data": {
+                "x": 220,
+                "y": 83,
+                "width": 131,
+                "height": 290
+            }
+        },
+        {
+            "id": "tujYGrrLnXKcDHSt8QcGp",
+            "category": "bounding_box",
+            "class": "계기용변성기(MOF)",
+            "attributes": {
+                "status": "normal",
+                "standard": "13200/110V"
+            },
+            "data": {
+                "x": 360,
+                "y": 82,
+                "width": 129,
+                "height": 273
+            }
+        }
+    ]
+}

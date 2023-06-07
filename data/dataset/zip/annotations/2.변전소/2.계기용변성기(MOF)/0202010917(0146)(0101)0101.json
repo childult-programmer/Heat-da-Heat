@@ -1,0 +1,76 @@
+{
+    "image": {
+        "filename": "0202010917(0146)(0101)0101.jpg",
+        "filename_rgb": "0202010917(0146)(0101)0301.jpg"
+    },
+    "csv": {
+        "filename_csv": "0202010917(0146)(0101)0101.csv",
+        "temp_start": "A6",
+        "delimiter": ";"
+    },
+    "metadata": {
+        "date_created": "2021.12.09. 11:49",
+        "type": "JPG",
+        "width": 640,
+        "height": 512,
+        "aspect_ratio": "5:4",
+        "region_name": "변전소",
+        "facility_id": "02",
+        "facility": "계기용변성기(MOF)",
+        "camera_height": "2m",
+        "camera_angle": 40.93,
+        "status": "normal",
+        "emissivity": 0.95,
+        "obj_distance": 1.0,
+        "reflected_temp": 26.4,
+        "atmospheric_temp": 26.4,
+        "relative_humidity": 10.0
+    },
+    "annotations": [
+        {
+            "id": "R3pD7bbyjQKlYbn9iB79O",
+            "category": "bounding_box",
+            "class": "계기용변성기(MOF)",
+            "attributes": {
+                "status": "normal",
+                "standard": "13200/110V"
+            },
+            "data": {
+                "x": 257,
+                "y": 59,
+                "width": 146,
+                "height": 259
+            }
+        },
+        {
+            "id": "DgqIhmyhBwu7UfudCR2c9",
+            "category": "bounding_box",
+            "class": "계기용변성기(MOF)",
+            "attributes": {
+                "status": "normal",
+                "standard": "13200/110V"
+            },
+            "data": {
+                "x": 393,
+                "y": 62,
+                "width": 147,
+                "height": 270
+            }
+        },
+        {
+            "id": "MH9ufxJ7teEpbSck9XEtC",
+            "category": "bounding_box",
+            "class": "계기용변성기(MOF)",
+            "attributes": {
+                "status": "normal",
+                "standard": "13200/110V"
+            },
+            "data": {
+                "x": 136,
+                "y": 58,
+                "width": 146,
+                "height": 250
+            }
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "image": {
+        "filename": "0202010730(1518)(0001)0101.jpg",
+        "filename_rgb": "0202010730(1518)(0001)0301.jpg"
+    },
+    "csv": {
+        "filename_csv": "0202010730(1518)(0001)0101.csv",
+        "temp_start": "A6",
+        "delimiter": ";"
+    },
+    "metadata": {
+        "date_created": "2021.12.09. 11:49",
+        "type": "JPG",
+        "width": 640,
+        "height": 512,
+        "aspect_ratio": "5:4",
+        "region_name": "변전소",
+        "facility_id": "02",
+        "facility": "계기용변성기(MOF)",
+        "camera_height": "2m",
+        "camera_angle": 30.0,
+        "status": "normal",
+        "emissivity": 0.95,
+        "obj_distance": 1.0,
+        "reflected_temp": 24.0,
+        "atmospheric_temp": 24.0,
+        "relative_humidity": 50.0
+    },
+    "annotations": [
+        {
+            "id": "23xoPhrHHRm6TTP9QRCPa",
+            "category": "bounding_box",
+            "class": "계기용변성기(MOF)",
+            "attributes": {
+                "status": "normal",
+                "standard": "13200/110V"
+            },
+            "data": {
+                "x": 241,
+                "y": 236,
+                "width": 73,
+                "height": 208
+            }
+        },
+        {
+            "id": "BWyZ6EWQvm8XRVpC_sO3f",
+            "category": "bounding_box",
+            "class": "계기용변성기(MOF)",
+            "attributes": {
+                "status": "normal",
+                "standard": "13200/110V"
+            },
+            "data": {
+                "x": 323,
+                "y": 235,
+                "width": 95,
+                "height": 199
+            }
+        },
+        {
+            "id": "QguIVUawF6vm0Alxulz8z",
+            "category": "bounding_box",
+            "class": "계기용변성기(MOF)",
+            "attributes": {
+                "status": "normal",
+                "standard": "13200/110V"
+            },
+            "data": {
+                "x": 424,
+                "y": 234,
+                "width": 100,
+                "height": 192
+            }
+        }
+    ]
+}

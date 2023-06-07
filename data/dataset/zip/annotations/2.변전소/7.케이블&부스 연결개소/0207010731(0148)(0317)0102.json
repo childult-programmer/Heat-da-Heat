@@ -1,0 +1,76 @@
+{
+    "image": {
+        "filename": "0207010731(0148)(0317)0102.jpg",
+        "filename_rgb": "0207010731(0148)(0317)0302.jpg"
+    },
+    "csv": {
+        "filename_csv": "0207010731(0148)(0317)0102.csv",
+        "temp_start": "A6",
+        "delimiter": ";"
+    },
+    "metadata": {
+        "date_created": "2021.12.09. 11:47",
+        "type": "JPG",
+        "width": 640,
+        "height": 512,
+        "aspect_ratio": "5:4",
+        "region_name": "변전소",
+        "facility_id": "07",
+        "facility": "케이블&부스 연결개소",
+        "camera_height": "2m",
+        "camera_angle": 125.52,
+        "status": "danger",
+        "emissivity": 0.95,
+        "obj_distance": 1.0,
+        "reflected_temp": 24.0,
+        "atmospheric_temp": 24.0,
+        "relative_humidity": 50.0
+    },
+    "annotations": [
+        {
+            "id": "l5gshDLfL-At_VpzHXb24",
+            "category": "bounding_box",
+            "class": "케이블&부스 연결개소",
+            "attributes": {
+                "status": "normal",
+                "standard": "22.9KV"
+            },
+            "data": {
+                "x": 0,
+                "y": 4,
+                "width": 132,
+                "height": 536
+            }
+        },
+        {
+            "id": "SNjrThy3IQcHDX3-zpFVV",
+            "category": "bounding_box",
+            "class": "케이블&부스 연결개소",
+            "attributes": {
+                "status": "danger",
+                "standard": "22.9KV"
+            },
+            "data": {
+                "x": 245,
+                "y": 14,
+                "width": 158,
+                "height": 496
+            }
+        },
+        {
+            "id": "89kRktd4IBa-Mros9y_d7",
+            "category": "bounding_box",
+            "class": "케이블&부스 연결개소",
+            "attributes": {
+                "status": "danger",
+                "standard": "22.9KV"
+            },
+            "data": {
+                "x": 423,
+                "y": 48,
+                "width": 217,
+                "height": 463
+            }
+        }
+    ]
+}

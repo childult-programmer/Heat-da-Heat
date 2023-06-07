@@ -1,0 +1,76 @@
+{
+    "image": {
+        "filename": "0201011001(0158)(0447)0101.jpg",
+        "filename_rgb": "0201011001(0158)(0447)0301.jpg"
+    },
+    "csv": {
+        "filename_csv": "0201011001(0158)(0447)0101.csv",
+        "temp_start": "A6",
+        "delimiter": ";"
+    },
+    "metadata": {
+        "date_created": "2021.12.09. 11:41",
+        "type": "JPG",
+        "width": 640,
+        "height": 512,
+        "aspect_ratio": "5:4",
+        "region_name": "변전소",
+        "facility_id": "01",
+        "facility": "단로기(DS)",
+        "camera_height": "2m",
+        "camera_angle": 91.29,
+        "status": "normal",
+        "emissivity": 0.95,
+        "obj_distance": 1.0,
+        "reflected_temp": 26.0,
+        "atmospheric_temp": 26.0,
+        "relative_humidity": 23.0
+    },
+    "annotations": [
+        {
+            "id": "YKqWTE3P_MWxmBt8x1adb",
+            "category": "bounding_box",
+            "class": "단로기(DS)",
+            "attributes": {
+                "status": "normal",
+                "standard": "24kV,1200A, 4P"
+            },
+            "data": {
+                "x": 242,
+                "y": 130,
+                "width": 39,
+                "height": 249
+            }
+        },
+        {
+            "id": "vlt3cVwx502Xe2grVfKaM",
+            "category": "bounding_box",
+            "class": "단로기(DS)",
+            "attributes": {
+                "status": "normal",
+                "standard": "24kV,1200A, 4P"
+            },
+            "data": {
+                "x": 488,
+                "y": 122,
+                "width": 39,
+                "height": 260
+            }
+        },
+        {
+            "id": "q5BEzyKrqbA9QwCo0_KuO",
+            "category": "bounding_box",
+            "class": "단로기(DS)",
+            "attributes": {
+                "status": "normal",
+                "standard": "24kV,1200A, 4P"
+            },
+            "data": {
+                "x": 119,
+                "y": 130,
+                "width": 37,
+                "height": 254
+            }
+        }
+    ]
+}

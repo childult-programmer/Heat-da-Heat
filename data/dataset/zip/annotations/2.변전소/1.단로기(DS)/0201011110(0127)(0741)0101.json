@@ -1,0 +1,76 @@
+{
+    "image": {
+        "filename": "0201011110(0127)(0741)0101.jpg",
+        "filename_rgb": "0201011110(0127)(0741)0301.jpg"
+    },
+    "csv": {
+        "filename_csv": "0201011110(0127)(0741)0101.csv",
+        "temp_start": "A6",
+        "delimiter": ";"
+    },
+    "metadata": {
+        "date_created": "2021.12.09. 11:40",
+        "type": "JPG",
+        "width": 640,
+        "height": 512,
+        "aspect_ratio": "5:4",
+        "region_name": "변전소",
+        "facility_id": "01",
+        "facility": "단로기(DS)",
+        "camera_height": "2m",
+        "camera_angle": 133.38,
+        "status": "normal",
+        "emissivity": 0.95,
+        "obj_distance": 1.0,
+        "reflected_temp": 26.9,
+        "atmospheric_temp": 26.9,
+        "relative_humidity": 27.0
+    },
+    "annotations": [
+        {
+            "id": "aTuYg_vUB9MAkI5Xf54kV",
+            "category": "bounding_box",
+            "class": "단로기(DS)",
+            "attributes": {
+                "status": "normal",
+                "standard": "24kV,1200A, 4P"
+            },
+            "data": {
+                "x": 380,
+                "y": 114,
+                "width": 53,
+                "height": 332
+            }
+        },
+        {
+            "id": "jNd8GSf5mFYPOZKYeJZIf",
+            "category": "bounding_box",
+            "class": "단로기(DS)",
+            "attributes": {
+                "status": "danger",
+                "standard": "24kV,1200A, 4P"
+            },
+            "data": {
+                "x": 254,
+                "y": 130,
+                "width": 44,
+                "height": 319
+            }
+        },
+        {
+            "id": "WCGt1k5zykfDT-M0mMWnj",
+            "category": "bounding_box",
+            "class": "단로기(DS)",
+            "attributes": {
+                "status": "danger",
+                "standard": "24kV,1200A, 4P"
+            },
+            "data": {
+                "x": 526,
+                "y": 114,
+                "width": 69,
+                "height": 354
+            }
+        }
+    ]
+}

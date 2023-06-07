@@ -1,0 +1,76 @@
+{
+    "image": {
+        "filename": "0207020817(1652)(0321)0101.jpg",
+        "filename_rgb": "0207020817(1652)(0321)0301.jpg"
+    },
+    "csv": {
+        "filename_csv": "0207020817(1652)(0321)0101.csv",
+        "temp_start": "A6",
+        "delimiter": ";"
+    },
+    "metadata": {
+        "date_created": "2021.12.09. 11:48",
+        "type": "JPG",
+        "width": 640,
+        "height": 512,
+        "aspect_ratio": "5:4",
+        "region_name": "변전소",
+        "facility_id": "07",
+        "facility": "케이블&부스 연결개소",
+        "camera_height": "2m",
+        "camera_angle": 96.67,
+        "status": "normal",
+        "emissivity": 0.95,
+        "obj_distance": 1.0,
+        "reflected_temp": 24.0,
+        "atmospheric_temp": 24.0,
+        "relative_humidity": 50.0
+    },
+    "annotations": [
+        {
+            "id": "2npTJz1zhJ9sONJn87D3B",
+            "category": "bounding_box",
+            "class": "케이블&부스 연결개소",
+            "attributes": {
+                "status": "normal",
+                "standard": "6.6KV"
+            },
+            "data": {
+                "x": 230,
+                "y": 115,
+                "width": 62,
+                "height": 91
+            }
+        },
+        {
+            "id": "F7J2-dUTKw9G5R4Hvblq8",
+            "category": "bounding_box",
+            "class": "케이블&부스 연결개소",
+            "attributes": {
+                "status": "normal",
+                "standard": "6.6KV"
+            },
+            "data": {
+                "x": 327,
+                "y": 112,
+                "width": 59,
+                "height": 97
+            }
+        },
+        {
+            "id": "Mo7RsqUwpPxuOq81hQIy0",
+            "category": "bounding_box",
+            "class": "케이블&부스 연결개소",
+            "attributes": {
+                "status": "normal",
+                "standard": "6.6KV"
+            },
+            "data": {
+                "x": 429,
+                "y": 109,
+                "width": 63,
+                "height": 99
+            }
+        }
+    ]
+}

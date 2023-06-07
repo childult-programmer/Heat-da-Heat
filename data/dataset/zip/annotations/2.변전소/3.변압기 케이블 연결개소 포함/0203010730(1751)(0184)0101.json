@@ -1,0 +1,46 @@
+{
+    "image": {
+        "filename": "0203010730(1751)(0184)0101.jpg",
+        "filename_rgb": "0203010730(1751)(0184)0301.jpg"
+    },
+    "csv": {
+        "filename_csv": "0203010730(1751)(0184)0101.csv",
+        "temp_start": "A6",
+        "delimiter": ";"
+    },
+    "metadata": {
+        "date_created": "2021.12.09. 11:42",
+        "type": "JPG",
+        "width": 640,
+        "height": 512,
+        "aspect_ratio": "5:4",
+        "region_name": "변전소",
+        "facility_id": "03",
+        "facility": "변압기 케이블 연결개소 포함",
+        "camera_height": "2m",
+        "camera_angle": 66.12,
+        "status": "normal",
+        "emissivity": 0.95,
+        "obj_distance": 1.0,
+        "reflected_temp": 24.0,
+        "atmospheric_temp": 24.0,
+        "relative_humidity": 50.0
+    },
+    "annotations": [
+        {
+            "id": "AzwuMesvrphB-3c6Hgl_E",
+            "category": "bounding_box",
+            "class": "변압기 케이블 연결개소 포함",
+            "attributes": {
+                "status": "normal",
+                "standard": "22.9KV/6.6kV"
+            },
+            "data": {
+                "x": 0,
+                "y": 76,
+                "width": 258,
+                "height": 280
+            }
+        }
+    ]
+}

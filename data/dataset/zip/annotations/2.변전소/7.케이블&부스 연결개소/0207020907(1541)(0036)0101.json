@@ -1,0 +1,76 @@
+{
+    "image": {
+        "filename": "0207020907(1541)(0036)0101.jpg",
+        "filename_rgb": "0207020907(1541)(0036)0301.jpg"
+    },
+    "csv": {
+        "filename_csv": "0207020907(1541)(0036)0101.csv",
+        "temp_start": "A6",
+        "delimiter": ";"
+    },
+    "metadata": {
+        "date_created": "2021.12.09. 11:48",
+        "type": "JPG",
+        "width": 640,
+        "height": 512,
+        "aspect_ratio": "5:4",
+        "region_name": "변전소",
+        "facility_id": "07",
+        "facility": "케이블&부스 연결개소",
+        "camera_height": "2m",
+        "camera_angle": 37.71,
+        "status": "normal",
+        "emissivity": 0.95,
+        "obj_distance": 1.0,
+        "reflected_temp": 24.5,
+        "atmospheric_temp": 24.5,
+        "relative_humidity": 10.0
+    },
+    "annotations": [
+        {
+            "id": "hISdlzJimU2e8UMk78aSF",
+            "category": "bounding_box",
+            "class": "케이블&부스 연결개소",
+            "attributes": {
+                "status": "normal",
+                "standard": "6.6KV"
+            },
+            "data": {
+                "x": 102,
+                "y": 209,
+                "width": 42,
+                "height": 301
+            }
+        },
+        {
+            "id": "Qvt8YPXZqyIAUtDpKQWpI",
+            "category": "bounding_box",
+            "class": "케이블&부스 연결개소",
+            "attributes": {
+                "status": "normal",
+                "standard": "6.6KV"
+            },
+            "data": {
+                "x": 192,
+                "y": 207,
+                "width": 33,
+                "height": 304
+            }
+        },
+        {
+            "id": "Xw8y5d1gsmgquk73PbVIC",
+            "category": "bounding_box",
+            "class": "케이블&부스 연결개소",
+            "attributes": {
+                "status": "normal",
+                "standard": "6.6KV"
+            },
+            "data": {
+                "x": 282,
+                "y": 207,
+                "width": 34,
+                "height": 303
+            }
+        }
+    ]
+}

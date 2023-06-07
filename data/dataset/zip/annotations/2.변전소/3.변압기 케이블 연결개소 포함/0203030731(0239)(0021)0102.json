@@ -1,0 +1,76 @@
+{
+    "image": {
+        "filename": "0203030731(0239)(0021)0102.jpg",
+        "filename_rgb": "0203030731(0239)(0021)0302.jpg"
+    },
+    "csv": {
+        "filename_csv": "0203030731(0239)(0021)0102.csv",
+        "temp_start": "A6",
+        "delimiter": ";"
+    },
+    "metadata": {
+        "date_created": "2021.12.09. 11:43",
+        "type": "JPG",
+        "width": 640,
+        "height": 512,
+        "aspect_ratio": "5:4",
+        "region_name": "변전소",
+        "facility_id": "03",
+        "facility": "변압기 케이블 연결개소 포함",
+        "camera_height": "2m",
+        "camera_angle": 47.52,
+        "status": "danger",
+        "emissivity": 0.95,
+        "obj_distance": 1.0,
+        "reflected_temp": 24.0,
+        "atmospheric_temp": 24.0,
+        "relative_humidity": 50.0
+    },
+    "annotations": [
+        {
+            "id": "JETqRP2fC-w1tzuBsFRCi",
+            "category": "bounding_box",
+            "class": "변압기 케이블 연결개소 포함",
+            "attributes": {
+                "status": "danger",
+                "standard": "6.6KV,380/220V,150kVA"
+            },
+            "data": {
+                "x": 217,
+                "y": 109,
+                "width": 55,
+                "height": 277
+            }
+        },
+        {
+            "id": "h9DRp42TDQCzYurk0Neyi",
+            "category": "bounding_box",
+            "class": "변압기 케이블 연결개소 포함",
+            "attributes": {
+                "status": "normal",
+                "standard": "6.6KV,380/220V,150kVA"
+            },
+            "data": {
+                "x": 264,
+                "y": 126,
+                "width": 51,
+                "height": 260
+            }
+        },
+        {
+            "id": "iqAVMvhbGwQwCT1dVrxdL",
+            "category": "bounding_box",
+            "class": "변압기 케이블 연결개소 포함",
+            "attributes": {
+                "status": "normal",
+                "standard": "6.6KV,380/220V,150kVA"
+            },
+            "data": {
+                "x": 304,
+                "y": 138,
+                "width": 48,
+                "height": 248
+            }
+        }
+    ]
+}

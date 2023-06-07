@@ -1,0 +1,76 @@
+{
+    "image": {
+        "filename": "0207010730(1545)(0216)0101.jpg",
+        "filename_rgb": "0207010730(1545)(0216)0301.jpg"
+    },
+    "csv": {
+        "filename_csv": "0207010730(1545)(0216)0101.csv",
+        "temp_start": "A6",
+        "delimiter": ";"
+    },
+    "metadata": {
+        "date_created": "2021.12.09. 11:47",
+        "type": "JPG",
+        "width": 640,
+        "height": 512,
+        "aspect_ratio": "5:4",
+        "region_name": "변전소",
+        "facility_id": "07",
+        "facility": "케이블&부스 연결개소",
+        "camera_height": "2m",
+        "camera_angle": 95.56,
+        "status": "normal",
+        "emissivity": 0.95,
+        "obj_distance": 1.0,
+        "reflected_temp": 24.0,
+        "atmospheric_temp": 24.0,
+        "relative_humidity": 50.0
+    },
+    "annotations": [
+        {
+            "id": "vRHkB3VvsQI0qHQieUJSN",
+            "category": "bounding_box",
+            "class": "케이블&부스 연결개소",
+            "attributes": {
+                "status": "normal",
+                "standard": "22.9KV"
+            },
+            "data": {
+                "x": 119,
+                "y": 46,
+                "width": 78,
+                "height": 392
+            }
+        },
+        {
+            "id": "swwRynGNVyMlXw7tLiZcR",
+            "category": "bounding_box",
+            "class": "케이블&부스 연결개소",
+            "attributes": {
+                "status": "normal",
+                "standard": "22.9KV"
+            },
+            "data": {
+                "x": 286,
+                "y": 56,
+                "width": 70,
+                "height": 395
+            }
+        },
+        {
+            "id": "EiVlGTpGmqi_YqOVt8rjY",
+            "category": "bounding_box",
+            "class": "케이블&부스 연결개소",
+            "attributes": {
+                "status": "normal",
+                "standard": "22.9KV"
+            },
+            "data": {
+                "x": 459,
+                "y": 57,
+                "width": 61,
+                "height": 404
+            }
+        }
+    ]
+}

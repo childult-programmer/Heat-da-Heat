@@ -1,0 +1,76 @@
+{
+    "image": {
+        "filename": "0203020730(1807)(0341)0101.jpg",
+        "filename_rgb": "0203020730(1807)(0341)0301.jpg"
+    },
+    "csv": {
+        "filename_csv": "0203020730(1807)(0341)0101.csv",
+        "temp_start": "A6",
+        "delimiter": ";"
+    },
+    "metadata": {
+        "date_created": "2021.12.09. 11:41",
+        "type": "JPG",
+        "width": 640,
+        "height": 512,
+        "aspect_ratio": "5:4",
+        "region_name": "변전소",
+        "facility_id": "03",
+        "facility": "변압기 케이블 연결개소 포함",
+        "camera_height": "2m",
+        "camera_angle": 148.26,
+        "status": "normal",
+        "emissivity": 0.95,
+        "obj_distance": 1.0,
+        "reflected_temp": 24.0,
+        "atmospheric_temp": 24.0,
+        "relative_humidity": 50.0
+    },
+    "annotations": [
+        {
+            "id": "uXo4xyx4FVJmdhwrWgQSn",
+            "category": "bounding_box",
+            "class": "변압기 케이블 연결개소 포함",
+            "attributes": {
+                "status": "normal",
+                "standard": "22.9KV/600V/600V,3000kVA"
+            },
+            "data": {
+                "x": 258,
+                "y": 53,
+                "width": 132,
+                "height": 459
+            }
+        },
+        {
+            "id": "oUYxh5S1sXhuCNTxTNyD6",
+            "category": "bounding_box",
+            "class": "변압기 케이블 연결개소 포함",
+            "attributes": {
+                "status": "normal",
+                "standard": "22.9KV/600V/600V,3000kVA"
+            },
+            "data": {
+                "x": 415,
+                "y": 69,
+                "width": 174,
+                "height": 443
+            }
+        },
+        {
+            "id": "gBQCAi0D6j1mb297OZYJm",
+            "category": "bounding_box",
+            "class": "변압기 케이블 연결개소 포함",
+            "attributes": {
+                "status": "normal",
+                "standard": "22.9KV/600V/600V,3000kVA"
+            },
+            "data": {
+                "x": 12,
+                "y": 42,
+                "width": 132,
+                "height": 469
+            }
+        }
+    ]
+}
